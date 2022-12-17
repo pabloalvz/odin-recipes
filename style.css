@@ -10,16 +10,32 @@ body {
     font-weight: 800;
 }
 
+.Subtitle {
+    text-align: center;
+    font-size: 30px;
+    color:#000000;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+}
+
 ul {
+    position: relative;
     background:#576F72;
     padding: 20px;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 ul li {
     background:#7D9D9C;
     padding: 20px;
-    text-align: center;
-    list-style-type: none;
+    list-style-type: none;    
 }
 
 #link {
@@ -30,13 +46,22 @@ ul li {
 }
 
 .bottom {
-    position:absolute;
-    bottom:10px;
+    position:fixed;
+    bottom: 5px;
+    
 }
 
-.bottom.center {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+.center {
+    left: 50%;
+    right: auto;
+    
+
+}
+.recipe-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+   
 
 }
