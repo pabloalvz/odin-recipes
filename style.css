@@ -1,0 +1,42 @@
+body {
+    background-color: #F0EBE3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Title {
+    text-align: center;
+    font-size: 60px;
+    color:#576F72;
+    font-weight: 800;
+}
+
+ul {
+    background:#576F72;
+    padding: 20px;
+}
+
+ul li {
+    background:#7D9D9C;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#link {
+    text-decoration: none;
+    color: #F0EBE3;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.bottom {
+    position:absolute;
+    bottom:10px;
+}
+
+.bottom.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
